@@ -1,0 +1,113 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>My personal Website</title>
+	<link rel ="stylesheet" href="css/style.css">
+	<style>
+		body {
+			font-family: Arial,sans-serif;
+			margin: 0;
+			padding: 0;
+			color: black;
+			text-align: center;
+			background-image: url('c.jpeg');
+   			background-repeat: no-repeat;
+   			background-attachment: scroll;
+   			background-position: center;
+  			background-size: cover;
+		}
+		header{
+			background-color: #008080;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		nav{
+			text-align: center;
+			margin: 20px 0;
+		}
+		nav a{
+			margin: 0 15px;
+			text-decoration: none;
+			color:  #008080;
+			font-weight: bold;
+		}
+		section {
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 800px;
+			border: 1px solid #ddd;
+			border-radius:5px;
+			background-color:#f9f9f9;
+		}
+		footer{
+			text-align: center;
+			padding: 10px;
+			background-color: #008080;
+			color: white;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			opacity: 80%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1> WELCOME TO MY PERSONAL WEBSITE</h1>
+	</header>
+<nav>
+	<a href="index.html">HOME</a>
+	<a href="aboutme.html">ABOUT ME</a>
+	<a href="education.html">EDUCATION</a>
+	<a href="family.html">FAMILY</a>
+	<a href="experience.html">EXPERIENCE</a>
+	<a href="friends.html">FRIENDS</a>
+	<a href="hobby.html">HOBBY</a>
+	<a href="favouriteplace.html">FAV PLACE</a>
+	<a href="favouritefood.html">FAV FOOD</a>
+	<a href="gallery.html">GALLERY</a>
+    <a href="contact us.html">CONTACT ME</a>
+
+</body>
+</nav>
+
+<h1> THIS IS MY GALLERY </h1>
+
+	<div class= "kodfun-galeri">
+	<div style="background-image: url('image/saya\ 2.jpg');"></div>
+	<div style="background-image: url('Image/sungai.JPG');"></div>
+	<div style="background-image: url('Image/kawan.JPG');"></div>
+	<div style="background-image: url('Image/makan.jpg');"></div>
+	<div style="background-image: url('Image/pta.jpg');"></div>
+	<div style="background-image: url('Image/program.jpg');"></div>
+
+</div>
+
+<style>
+	.kodfun-galeri {
+		display: flex;
+		height: 20rem;
+		gap: 1rem;
+	}
+	.kodfun-galeri > div {
+		flex: 1;
+		border-radius: 1rem;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		transition: all .8s cubic-bezier(.25,  .4,  .45,  1.4);
+	}
+	.kodfun-galeri > div:hover {
+		flex: 5;
+	}
+</style>
+
+
+<footer>
+<p>All rights reserved by Najmi,2025</p>
+</footer>
+
+
+</body>
+</html>		

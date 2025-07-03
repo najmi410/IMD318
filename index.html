@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Website - Homepage</title>
+	<link rel ="stylesheet" href="css/style.css">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			color: white;
+			text-align: center;
+			background-image: url('background1.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+			animation: fadeIn 1.5s ease-in;
+		}
+
+		header {
+			background-color: rgba(0, 128, 128, 0.9);
+			color: white;
+			padding: 20px;
+		}
+
+		nav {
+			background-color: rgba(0, 0, 0, 0.6);
+			padding: 10px;
+			border-radius: 10px;
+			display: inline-block;
+			margin: 20px auto;
+		}
+
+		nav a {
+			margin: 0 10px;
+			text-decoration: none;
+			color: #00ffd5;
+			font-weight: bold;
+			padding: 6px 12px;
+			border-radius: 5px;
+			transition: 0.3s;
+		}
+
+		nav a:hover {
+			background-color: #00ffd5;
+			color: black;
+		}
+
+		section {
+			background-color: rgba(255, 255, 255, 0.08);
+			padding: 30px;
+			margin: 30px auto;
+			max-width: 800px;
+			border-radius: 10px;
+			box-shadow: 0 0 12px rgba(0, 255, 213, 0.2);
+		}
+
+		footer {
+			background-color: rgba(0, 128, 128, 0.9);
+			color: white;
+			text-align: center;
+			padding: 10px;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			font-size: 14px;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+				transform: translateY(20px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<h1>WELCOME TO MY PERSONAL WEBSITE</h1>
+	</header>
+
+	<nav>
+		<a href="index.html">HOME</a>
+		<a href="aboutme.html">ABOUT ME</a>
+		<a href="education.html">EDUCATION</a>
+		<a href="family.html">FAMILY</a>
+		<a href="experience.html">EXPERIENCE</a>
+		<a href="friends.html">FRIENDS</a>
+		<a href="hobby.html">HOBBY</a>
+		<a href="favouriteplace.html">FAV PLACE</a>
+		<a href="favouritefood.html">FAV FOOD</a>
+		<a href="gallery.html">GALLERY</a>
+	</nav>
+
+	<section class="homepage-section">
+  <h2 class="homepage-heading">Hello and Welcome!</h2>
+  <p class="intro-text">
+    I’m <span class="highlight">Muhammad Najmi bin Azizan</span>, a passionate student of 
+    <strong>Information Management</strong> at Universiti Teknologi MARA.
+  </p>
+  <p class="intro-text">
+    This website is my digital space where I share about my <span class="highlight">education</span>, 
+    <span class="highlight">family</span>, <span class="highlight">interests</span>, and 
+    <span class="highlight">life experiences</span>.
+  </p>
+  <p class="intro-text">
+    Feel free to explore and get to know me better through the sections above!
+  </p>
+</section>
+
+	<footer>
+		<p>All rights reserved by Najmi, 2025</p>
+	</footer>
+
+</body>
+</html>
